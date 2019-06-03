@@ -1,0 +1,21 @@
+server:
+  port: 8081
+  tomcat.uri-encoding: UTF-8  
+   
+spring:
+    datasource:
+        name: root
+        url: jdbc:mysql://localhost:3306/crm_zyb?useUnicode=true&characterEncoding=utf8&useSSL=true
+        username: root
+        password: mysql123
+        driver-class-name: com.mysql.jdbc.Driver
+#  mvc:
+#    view:
+#      prefix: 
+#      suffix: 
+
+mybatis:
+  config-location: classpath:mybatis-config.xml
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.fairyland.mgr.entity
+ 
