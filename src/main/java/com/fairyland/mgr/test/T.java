@@ -15,7 +15,9 @@ public class T {
 	public static String show() {
 		System.out.println("ceshi github tijiao");
 		System.out.println("ceshi github tijiao2");
+		System.out.println("冲突我要冲突dddddddddddddddd");
 		System.out.println("怎么玩都没有冲突?mmmmmmmmmm");
+		
 		int number1 = 1;
 		switch (number1) {
 		case 1:
