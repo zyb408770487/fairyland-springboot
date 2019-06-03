@@ -15,7 +15,7 @@ public class T {
 	public static String show() {
 		System.out.println("ceshi github tijiao");
 		System.out.println("ceshi github tijiao2");
-		System.out.println("master版本,改一改改一改");		
+		System.out.println("master版本,我在dev上面做一些修改");		
 		int number1 = 1;
 		switch (number1) {
 		case 1:
