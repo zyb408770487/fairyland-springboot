@@ -15,7 +15,8 @@ public class T {
 	public static String show() {
 		System.out.println("ceshi github tijiao");
 		System.out.println("ceshi github tijiao2");
-System.out.println("dev上面修改");		int number1 = 1;
+		System.out.println("dev上面修改");		
+		int number1 = 1;
 		switch (number1) {
 		case 1:
 			System.out.println("11111");
