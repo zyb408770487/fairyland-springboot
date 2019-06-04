@@ -2,6 +2,8 @@ package com.fairyland.mgr.test;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
 import java.util.UUID;
 
 import org.apache.commons.lang3.StringUtils;
@@ -64,6 +66,17 @@ public class T {
 	        data.put("key1", "username");
 	        data.put("key3", "key33333");
 	        data.put("key2", "password");
+	        for (Map.Entry<String, Object> entry : data.entrySet()) {
+				String key = entry.getKey();
+				Object value = entry.getValue();
+				System.out.println("key: " + key + "	value: " + value);
+			}
+	        for (Map.Entry<String, Object> entry : data.entrySet()) {
+	        	String key = entry.getKey();
+	        	Object value = entry.getValue();
+	        	System.out.println("key:	" + key);
+	        	System.out.println("value:	" + value);
+			}
 	        
 	        JSONObject obj1 = new JSONObject(data);
 	        System.out.println("obj1:" + obj1);
