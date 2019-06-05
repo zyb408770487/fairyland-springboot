@@ -95,7 +95,7 @@ public class T {
 	        String s4 = "4";
 	        String s5 = "5";
 			String student = "{\"id\":\""+ s +"\",\"name\":\"" + s1 +"\", \"age\":\""+ s2 + "\",\"gender\":\""+ s3 + "\", \"time\":\""+ s4 + "\" , \"type\":\"" + s5 +"\"}";
-			String replace = student.replace(" ", ""); 
+			String replace = student.replace("\\", ""); 
 			System.out.println("-----------------------------------");
 			System.out.println(student);
 			System.out.println(replace);
