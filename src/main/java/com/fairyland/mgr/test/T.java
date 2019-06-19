@@ -14,6 +14,7 @@ public class T {
 	
 	public static String show() {
 		System.out.println("dev说没啥意思");
+		System.out.println("dev111111");
 		int number1 = 1;
 		switch (number1) {
 		case 1:
