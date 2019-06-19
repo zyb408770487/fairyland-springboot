@@ -37,7 +37,8 @@ public class T {
 		String number;
 //		System.out.println(number = "1");
 //		System.out.println(number);
-		String s = "qwerdf123";
+		String s = "rewq321";
+		System.out.println("dev分支瞎几把该");
 		System.out.println(s);
 		String string = UUID.randomUUID().toString();
 		String sha1DigestAsHex = DigestUtils.sha1DigestAsHex(s);
