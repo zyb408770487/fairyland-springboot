@@ -13,9 +13,7 @@ import com.alibaba.fastjson.JSONObject;
 public class T {
 	
 	public static String show() {
-		System.out.println("ceshi github tijiao");
-		System.out.println("ceshi github tijiao2");
-		System.out.println("maser上面修改一下");
+		System.out.println("dev说没啥意思");
 		int number1 = 1;
 		switch (number1) {
 		case 1:
