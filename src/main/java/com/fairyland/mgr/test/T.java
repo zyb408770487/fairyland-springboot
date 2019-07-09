@@ -47,8 +47,8 @@ public class T {
 		String sha1DigestAsHex = DigestUtils.sha1DigestAsHex(s);
 		System.out.println(sha1DigestAsHex);
 		System.out.println(string);
-		HashMap<String,Integer> hashMap = new HashMap<>();
-		
+		HashMap<String,Integer> hashMap = new HashMap<String,Integer>();
+
 		Integer integer = hashMap.get("thc_user");
 		hashMap.put("thc_user", 1124);
 		System.out.println(hashMap.get(integer));
