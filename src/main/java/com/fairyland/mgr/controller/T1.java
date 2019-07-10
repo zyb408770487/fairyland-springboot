@@ -59,7 +59,7 @@ public class T1 {
 		int a = 5;
 		System.out.println(a);
 		List<FutureTask<Map<String,Object>>> taskList = new ArrayList<FutureTask<Map<String,Object>>>();
-		ThreadLocal<Object> threadLocal = new ThreadLocal<>();
+		ThreadLocal<Object> threadLocal = new ThreadLocal<Object>();
 		String s = new String("adsdf");
 //		System.out.println(s.length());
 //		BigDecimal bigDecimal = new BigDecimal("");

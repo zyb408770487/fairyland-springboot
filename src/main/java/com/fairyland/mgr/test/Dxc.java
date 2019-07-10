@@ -3,6 +3,8 @@ package com.fairyland.mgr.test;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
 
+import static java.lang.System.out;
+
 public class Dxc {
 	public static void main(String[] args) throws Exception, Exception {
 		MyThread myThread = new MyThread();
@@ -21,13 +23,13 @@ public class Dxc {
 //		thread2.start();
 		
 		MyThreadCall myThreadCall = new MyThreadCall();
-		FutureTask<String> futureTask = new FutureTask<>(myThreadCall);
+		FutureTask<String> futureTask = new FutureTask<String>(myThreadCall);
 		Thread thread3 = new Thread(futureTask,"线程E");
 		Thread thread4 = new Thread(futureTask,"线程F");
 		Thread thread5 = new Thread(futureTask,"线程G");
 		thread4.start();
 		thread3.start();
 		thread5.start();
-		System.out.println(futureTask.get());
+		out.println(futureTask.get());
 	}
 }

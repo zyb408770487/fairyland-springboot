@@ -11,6 +11,11 @@ public class IdeaTest {
         this.passWord = passWord;
     }
 
+    public IdeaTest(String userName, String passWord) {
+        this.userName = userName;
+        this.passWord = passWord;
+    }
+
     public String getUserName() {
         return userName;
     }
