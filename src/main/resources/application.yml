@@ -5,7 +5,7 @@ server:
 spring:
     datasource:
         name: root
-        url: jdbc:mysql://localhost:3306/crm_zyb?useUnicode=true&characterEncoding=utf8&useSSL=true
+        url: jdbc:mysql://localhost:3306/zhouyangbin?useUnicode=true&characterEncoding=utf8&useSSL=true
         username: root
         password: mysql123
         driver-class-name: com.mysql.jdbc.Driver
