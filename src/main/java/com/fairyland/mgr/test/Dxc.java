@@ -2,9 +2,7 @@ package com.fairyland.mgr.test;
 
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
-
 import static java.lang.System.out;
-
 public class Dxc {
 	public static void main(String[] args) throws Exception, Exception {
 		MyThread myThread = new MyThread();
@@ -31,5 +29,6 @@ public class Dxc {
 		thread3.start();
 		thread5.start();
 		out.println(futureTask.get());
+		System.out.println(futureTask.get());
 	}
 }
